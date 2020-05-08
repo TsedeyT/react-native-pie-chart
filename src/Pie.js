@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Platform, ART, View, ViewPropTypes } from 'react-native';
+import { Platform, View, ViewPropTypes } from 'react-native';
 import PropTypes from 'prop-types';
-const { Surface, Group, Path, Shape } = ART;
+const { Surface, Group, Path, Shape } from '@react-native-community/art';
 import Wedge from './Wedge';
+
 
 class Pie extends Component {
   getRadius(){
